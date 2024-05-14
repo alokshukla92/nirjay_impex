@@ -1,0 +1,143 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-15 02:15:56.580900",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product_code",
+  "pack_size",
+  "pack",
+  "case",
+  "price_usd",
+  "column_break_rbzc",
+  "amt",
+  "exch_rate",
+  "inr_amount",
+  "each_pur_rate_rs",
+  "exp_without_gst",
+  "total_exp",
+  "total_inr",
+  "qty_in_pcs",
+  "each_without_gst_inr"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Product Code",
+   "options": "Item"
+  },
+  {
+   "fieldname": "pack_size",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Pack Size"
+  },
+  {
+   "fieldname": "pack",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Pack"
+  },
+  {
+   "fieldname": "case",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Case"
+  },
+  {
+   "fieldname": "price_usd",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Price USD"
+  },
+  {
+   "fieldname": "amt",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "AMT",
+   "read_only": 1
+  },
+  {
+   "fieldname": "exch_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Exch Rate"
+  },
+  {
+   "fieldname": "inr_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "INR Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "each_pur_rate_rs",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Each Pur Rate Rs",
+   "read_only": 1
+  },
+  {
+   "fieldname": "exp_without_gst",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "EXP % WITHOUT GST"
+  },
+  {
+   "fieldname": "total_exp",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "TOTAL EXP",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_inr",
+   "fieldtype": "Currency",
+   "label": "TOTAL INR",
+   "read_only": 1
+  },
+  {
+   "fieldname": "qty_in_pcs",
+   "fieldtype": "Int",
+   "label": "QTY IN PCS",
+   "read_only": 1
+  },
+  {
+   "fieldname": "each_without_gst_inr",
+   "fieldtype": "Currency",
+   "label": "EACH WITHOUT GST INR",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_rbzc",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-15 02:28:28.736510",
+ "modified_by": "Administrator",
+ "module": "Nirjay Impex",
+ "name": "Cheklist PO Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
